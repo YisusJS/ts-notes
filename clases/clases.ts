@@ -9,10 +9,7 @@
       avgName: number,
       public realName?: string // Puede ser omitida
     ) {
-      this.name = name;
-      this.team = team;
       Avenger.avgName = avgName; // Se apunta a la clase y se modifica
-      this.realName = realName;
     }
 
     // Métodos estáticos, solo pueden apuntar a otras propiedades estáticas

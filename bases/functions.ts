@@ -16,7 +16,7 @@
   };
 
   // Parámetros Rest
-  const fullName = (firstName: string, ...rest: string[]) => {
+  const fullName = (firstName: string, ...rest: string[]): string => {
     return `${firstName} ${rest.join(' ')}`;
   };
 

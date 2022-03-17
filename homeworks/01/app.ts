@@ -18,11 +18,11 @@
     flash = 1,
     superman = 5,
     batman = 10,
-    acuaman = 14
+    acuaman = 14,
   }
 
   const fuerzaFlash: power = power.flash;
-  const fuerzaSuperman: power= power.superman;
+  const fuerzaSuperman: power = power.superman;
   const fuerzaBatman: power = power.batman;
   const fuerzaAcuaman: power = power.acuaman;
 
