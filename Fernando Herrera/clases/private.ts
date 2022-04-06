@@ -1,4 +1,5 @@
 (() => {
+  // Single pattern
   // No importa las veces que se instancie, siempre será una única instancia
   class Apocalipsis {
     // Generamos una propiedad estática del mismo tipo de la clase

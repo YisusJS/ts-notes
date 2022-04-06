@@ -4,7 +4,7 @@
       console.log('Constructor Avenger llamado');
     }
 
-    // Las propiedades protegigas puedes ser usadas desde clases heredadas
+    // Las propiedades protegidas puedes ser usadas desde clases heredadas
     protected getFullName(): string {
       return `${this.name} ${this.realName}`;
     }
